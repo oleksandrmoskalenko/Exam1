@@ -15,16 +15,40 @@
             font-size: 24px;
             letter-spacing: 3.36px;
             text-transform: uppercase;
+
+            &:hover {
+                color: $violet;
+            }
         }
 
         &__subtitle {
             font-size: 16px;
             letter-spacing: 1.6px;
             margin-bottom: 25px;
+
+            &:hover {
+                color: $violet;
+            }
+        }
+
+        &__logo {
+            display: flex;
+            align-items: center;
+        }
+
+        &__link {
+            text-decoration: none;
+            color: currentColor;
         }
     }
 }
 
 .svg-inline--fa {
     margin: 0 12px;
+    fill: #E8E8E8;
+
+    &:hover {
+        zoom: 1.5;
+        fill: $violet;
+    }
 }

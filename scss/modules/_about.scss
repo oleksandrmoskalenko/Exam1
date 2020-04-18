@@ -34,6 +34,12 @@
             font-size: 16px;
             letter-spacing: 1.2px;
             text-transform: uppercase;
+
+            &:hover {
+                filter: brightness(1.1);
+                zoom: 1.05;
+                font-size: 18px;
+            }
         }
 
         &__img {

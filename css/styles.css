@@ -255,6 +255,11 @@ body, html {
   letter-spacing: 1.2px;
   text-transform: uppercase;
 }
+.about-block__button:hover {
+  filter: brightness(1.1);
+  zoom: 1.05;
+  font-size: 18px;
+}
 .about-block__img {
   width: 350px;
   height: 220px;
@@ -330,14 +335,33 @@ body, html {
   letter-spacing: 3.36px;
   text-transform: uppercase;
 }
+.footer-block__title:hover {
+  color: #5474fd;
+}
 .footer-block__subtitle {
   font-size: 16px;
   letter-spacing: 1.6px;
   margin-bottom: 25px;
 }
+.footer-block__subtitle:hover {
+  color: #5474fd;
+}
+.footer-block__logo {
+  display: flex;
+  align-items: center;
+}
+.footer-block__link {
+  text-decoration: none;
+  color: currentColor;
+}
 
 .svg-inline--fa {
   margin: 0 12px;
+  fill: #E8E8E8;
+}
+.svg-inline--fa:hover {
+  zoom: 1.5;
+  fill: #5474fd;
 }
 
 .option1 {
@@ -381,6 +405,11 @@ body, html {
   font-size: 16px;
   letter-spacing: 1.2px;
   text-transform: uppercase;
+}
+.option-block__button:hover {
+  filter: brightness(1.1);
+  zoom: 1.05;
+  font-size: 18px;
 }
 
 .option2 {
