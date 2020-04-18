@@ -3,4 +3,41 @@
     background: url('../images/travel.jpg') 100% 100% no-repeat;
     background-size: cover;
 
+    &__title {
+        color: #fff;
+        font-size: 36px;
+        margin: 115px 0 89px;
+        text-align: center;
+    }
+
+    &__img {
+        padding: 0;
+        @include size(445px, 284px);
+        background: url('../images/tourist.jpg') no-repeat;
+    }
+
+    &-block {
+        padding: 45px 54px 43px 30px;
+
+        &__title {
+            color: #fefefe;
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-bottom: 23px;
+        }
+
+        &__text {
+            color: $white;
+            font-size: 16px;
+            line-height: 1.63;
+
+            &--violet {
+                font-family: 'Passion One', cursive;
+                font-size: 38px;
+                color: $violet;
+                padding: 0;
+                line-height: 0;
+            }
+        }
+    }
 }
