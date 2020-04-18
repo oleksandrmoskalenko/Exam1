@@ -190,7 +190,7 @@ body, html {
 .buttons-block {
   height: 337px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .buttons__link {
@@ -203,6 +203,56 @@ body, html {
   margin-top: 14px;
   color: #e8e8e8;
   font-size: 36px;
+}
+
+.about {
+  width: 100%;
+  height: 685px;
+  background: url("../images/choose.jpg") 100% 100% no-repeat;
+  background-size: cover;
+}
+.about-block {
+  display: flex;
+  flex-direction: column;
+}
+.about-block__title {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 52px;
+}
+.about-block__text {
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  color: #e8e8e8;
+  line-height: 1.63;
+}
+.about-block__spacer {
+  height: 25px;
+}
+.about-block__button {
+  color: #fff;
+  margin-top: 43px;
+  width: 225px;
+  height: 60px;
+  background: #5474fd;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.about-block__img {
+  width: 350px;
+  height: 220px;
+  margin-bottom: 5px;
+}
+.about-block__img:last-of-type {
+  margin-left: calc(100% - 350px);
+}
+.about-block--text {
+  margin-top: 199px;
+}
+.about-block--img {
+  margin-top: 120px;
+  padding: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
