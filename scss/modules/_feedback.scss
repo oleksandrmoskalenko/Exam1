@@ -1,0 +1,6 @@
+.feedback {
+    @include size(100%, 731px);
+    background: url('../images/travel.jpg') 100% 100% no-repeat;
+    background-size: cover;
+
+}
