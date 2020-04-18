@@ -311,6 +311,35 @@ body, html {
   line-height: 0;
 }
 
+.footer {
+  width: 100%;
+  height: 268px;
+  background: #232323;
+  background-size: cover;
+}
+.footer-block {
+  height: 268px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-block__title {
+  margin: 115px 0 15px;
+  font-size: 24px;
+  letter-spacing: 3.36px;
+  text-transform: uppercase;
+}
+.footer-block__subtitle {
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  margin-bottom: 25px;
+}
+
+.svg-inline--fa {
+  margin: 0 12px;
+}
+
 .option1 {
   width: 100%;
   height: 700px;
