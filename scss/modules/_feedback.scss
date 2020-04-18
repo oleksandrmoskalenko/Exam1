@@ -4,6 +4,7 @@
     background-size: cover;
 
     &__title {
+        font-family: $Aleo;
         color: #fff;
         font-size: 36px;
         margin: 115px 0 89px;
@@ -20,6 +21,8 @@
         padding: 45px 54px 43px 30px;
 
         &__title {
+            font-family: $JosefinSans;
+            font-weight: 300;
             color: #fefefe;
             font-size: 20px;
             text-transform: uppercase;
@@ -27,6 +30,8 @@
         }
 
         &__text {
+            font-family: $JosefinSans;
+            font-weight: 300;
             color: $white;
             font-size: 16px;
             line-height: 1.63;

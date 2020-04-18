@@ -11,6 +11,7 @@
         align-items: center;
 
         &__title {
+            font-family: $JosefinSans;
             margin: 115px 0 15px;
             font-size: 24px;
             letter-spacing: 3.36px;
@@ -22,6 +23,8 @@
         }
 
         &__subtitle {
+            font-family: $JosefinSans;
+            font-weight: 300;
             font-size: 16px;
             letter-spacing: 1.6px;
             margin-bottom: 25px;

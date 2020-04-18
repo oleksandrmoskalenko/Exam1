@@ -14,12 +14,16 @@
     margin-top: 229px;
 
     &__subtitle {
+        font-family: $JosefinSans;
+        font-weight: 300;
         font-size: 20px;
         letter-spacing: 1.5px;
         margin-bottom: 20px;
     }
 
     &__title {
+        font-family: $JosefinSans;
+        font-weight: 300;
         color: #fff;
         font-size: 20px;
         text-transform: uppercase;
@@ -27,12 +31,15 @@
     }
 
     &__text {
+        font-family: $JosefinSans;
+        font-weight: 300;
         font-size: 16px;
         line-height: 1.63;
         margin-bottom: 43px;
     }
 
     &__button {
+        font-family: $Aleo;
         @include size(225px, 60px);
         background: $violet;
         color: #fff;

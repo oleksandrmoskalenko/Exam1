@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 @import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,300&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -105,43 +105,52 @@ body, html {
 }
 .header__title {
   font-size: 48px;
-  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
   margin-bottom: 5px;
   text-transform: uppercase;
   letter-spacing: 4.8px;
 }
 .header__subtitle {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
   font-size: 22px;
   letter-spacing: 6.82px;
   margin-bottom: 45px;
 }
 .header__search {
+  font-family: "Josefin Sans", sans-serif;
   width: 650px;
   height: 60px;
   margin-bottom: 120px;
   padding-left: 126px;
 }
 .header__search::-webkit-input-placeholder {
+  font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   letter-spacing: 2.8px;
   color: #999;
 }
 .header__search:-ms-input-placeholder {
+  font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   letter-spacing: 2.8px;
   color: #999;
 }
 .header__search::-ms-input-placeholder {
+  font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   letter-spacing: 2.8px;
   color: #999;
 }
 .header__search::placeholder {
+  font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   letter-spacing: 2.8px;
   color: #999;
 }
 .header__submit {
+  font-family: "Aleo", serif;
   width: 150px;
   height: 60px;
   position: absolute;
@@ -170,6 +179,8 @@ body, html {
   right: 248px;
 }
 .header__scroll-down {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -215,6 +226,7 @@ body, html {
   color: #fff;
 }
 .navigation__title {
+  font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 2.4px;
@@ -224,6 +236,7 @@ body, html {
   display: flex;
 }
 .menu__link {
+  font-family: "Aleo", serif;
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
@@ -249,6 +262,7 @@ body, html {
   align-items: center;
 }
 .buttons__text {
+  font-family: "Aleo", serif;
   margin-top: 14px;
   color: #e8e8e8;
   font-size: 36px;
@@ -265,11 +279,14 @@ body, html {
   flex-direction: column;
 }
 .about-block__title {
+  font-family: "Aleo", serif;
   color: #fff;
   font-size: 36px;
   margin-bottom: 52px;
 }
 .about-block__text {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
   font-size: 16px;
   letter-spacing: 1.6px;
   color: #e8e8e8;
@@ -279,6 +296,7 @@ body, html {
   height: 25px;
 }
 .about-block__button {
+  font-family: "Aleo", serif;
   color: #fff;
   margin-top: 43px;
   width: 225px;
@@ -316,6 +334,7 @@ body, html {
   background-size: cover;
 }
 .feedback__title {
+  font-family: "Aleo", serif;
   color: #fff;
   font-size: 36px;
   margin: 115px 0 89px;
@@ -331,12 +350,16 @@ body, html {
   padding: 45px 54px 43px 30px;
 }
 .feedback-block__title {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
   color: #fefefe;
   font-size: 20px;
   text-transform: uppercase;
   margin-bottom: 23px;
 }
 .feedback-block__text {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
   color: #e8e8e8;
   font-size: 16px;
   line-height: 1.63;
@@ -363,6 +386,7 @@ body, html {
   align-items: center;
 }
 .footer-block__title {
+  font-family: "Josefin Sans", sans-serif;
   margin: 115px 0 15px;
   font-size: 24px;
   letter-spacing: 3.36px;
@@ -372,6 +396,8 @@ body, html {
   color: #5474fd;
 }
 .footer-block__subtitle {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
   font-size: 16px;
   letter-spacing: 1.6px;
   margin-bottom: 25px;
@@ -415,22 +441,29 @@ body, html {
   margin-top: 229px;
 }
 .option-block__subtitle {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
   font-size: 20px;
   letter-spacing: 1.5px;
   margin-bottom: 20px;
 }
 .option-block__title {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
   color: #fff;
   font-size: 20px;
   text-transform: uppercase;
   margin-bottom: 19px;
 }
 .option-block__text {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.63;
   margin-bottom: 43px;
 }
 .option-block__button {
+  font-family: "Aleo", serif;
   width: 225px;
   height: 60px;
   background: #5474fd;

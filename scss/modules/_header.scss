@@ -16,29 +16,34 @@
 
     &__title {
         font-size: 48px;
-        font-weight: 700;
+        font-family: $JosefinSans;
+        font-weight: 600;
         margin-bottom: 5px;
         text-transform: uppercase;
         letter-spacing: 4.8px;
     }
     &__subtitle {
+        font-family: $JosefinSans;
+        font-weight: 300;
         font-size: 22px;
         letter-spacing: 6.82px;
         margin-bottom: 45px;
     }
 
     &__search {
+        font-family: $JosefinSans;
         @include size(650px, 60px);
         margin-bottom: 120px;
         padding-left: 126px;
 
-        &::-webkit-input-placeholder {font-size: 14px; letter-spacing: 2.8px; color: #999;}
-        &:-ms-input-placeholder {font-size: 14px; letter-spacing: 2.8px; color: #999;}
-        &::-ms-input-placeholder {font-size: 14px; letter-spacing: 2.8px; color: #999;}
-        &::placeholder {font-size: 14px; letter-spacing: 2.8px; color: #999;}
+        &::-webkit-input-placeholder {font-family: $JosefinSans; font-size: 14px; letter-spacing: 2.8px; color: #999;}
+        &:-ms-input-placeholder {font-family: $JosefinSans; font-size: 14px; letter-spacing: 2.8px; color: #999;}
+        &::-ms-input-placeholder {font-family: $JosefinSans; font-size: 14px; letter-spacing: 2.8px; color: #999;}
+        &::placeholder {font-family: $JosefinSans; font-size: 14px; letter-spacing: 2.8px; color: #999;}
     }
     
     &__submit {
+        font-family: $Aleo;
         width: 150px;
         height: 60px;
         position: absolute;
@@ -67,6 +72,8 @@
 }
 
     &__scroll-down {
+        font-family: $JosefinSans;
+        font-weight: 300;
         display: flex;
         flex-direction: column;
         align-items: center;
