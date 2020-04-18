@@ -1,0 +1,5 @@
+.option2 {
+    @include size(100%, 700px);
+    background: url('../images/spain-2.jpg') 100% 100% no-repeat;
+    background-size: cover;
+}
